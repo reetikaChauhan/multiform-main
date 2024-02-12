@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(206, 94%, 87%);
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+    display:flex;
+    background-color: white;
+    width:1000px;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+    
+}
+.sidebar{
+    width:280px;
+    height:500px;
+    color:white;  
+    background-image: url("./assets/images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+
+ .circles{
+   position: relative;
+   width:20%;
+   height:50%;
+   display: flex;
+   font-weight: 500;
+   margin-top: 15%;
+   flex-direction: column;
+   justify-content: space-between;
+   color: white;
+   align-items: center;
+}
+.circles p {
+    margin-top: 12px;
+}
+.circle-1{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(255,255,255);
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.circle-2{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(0,0,0,0);
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.circle-3{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(0,0,0,0);
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.circle-4{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(0,0,0,0);
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.sidebar .step{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:60%;
+    height:50%;
+    margin-top:15%;
+    margin-left: 0;
+    background-color: rgba(255, 255, 0, 0);
+    position: relative;
+}
+.step-num{
+    position: inherit;  
+    padding-left: 5px;
+    background-color: rgba(156, 55, 55, 0);
+}
+.step  p {  
+    margin-bottom: 0px;
+    margin-top: 0px;  
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+  }
+
+.step span {  
+    color: white;
+}
+.steps{
+    margin:55px;
+    width:600px;
+}
+.steps .stepInfo h1{
+    color:hsl(213, 96%, 18%);
+    font-weight: 700;
+}
+.steps .stepInfo p{
+    color: hsl(229, 24%, 87%);
+    font-size: 16px;
+    font-weight: 400;
+}
+label{
+    color:black;
+   
+}
+.steps .stepInfo input{
+    width:100%;
+    min-width: 50px;
+    height:35px;
+    border:1px solid hsl(229, 24%, 87%);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+    margin:35px;
+}
+.button-div button{
+    background-color:hsl(213, 96%, 18%);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    width:70px;
+    height:35px;
+}
+
